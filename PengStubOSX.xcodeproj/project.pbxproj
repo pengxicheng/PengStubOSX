@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C810EABC1D3F0A0C008785C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EABB1D3F0A0C008785C9 /* AppDelegate.m */; };
+		C810EABF1D3F0A0C008785C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EABE1D3F0A0C008785C9 /* main.m */; };
+		C810EAC21D3F0A0C008785C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EAC11D3F0A0C008785C9 /* ViewController.m */; };
+		C810EAC41D3F0A0C008785C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C810EAC31D3F0A0C008785C9 /* Assets.xcassets */; };
+		C810EAC71D3F0A0D008785C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C810EAC51D3F0A0D008785C9 /* Main.storyboard */; };
+		C810EAD21D3F0A0D008785C9 /* PengStubOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EAD11D3F0A0D008785C9 /* PengStubOSXTests.m */; };
+		C810EADD1D3F0A0D008785C9 /* PengStubOSXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EADC1D3F0A0D008785C9 /* PengStubOSXUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C810EACE1D3F0A0D008785C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C810EAAF1D3F0A0C008785C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C810EAB61D3F0A0C008785C9;
+			remoteInfo = PengStubOSX;
+		};
+		C810EAD91D3F0A0D008785C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C810EAAF1D3F0A0C008785C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C810EAB61D3F0A0C008785C9;
+			remoteInfo = PengStubOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C810EAB71D3F0A0C008785C9 /* PengStubOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PengStubOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C810EABA1D3F0A0C008785C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C810EABB1D3F0A0C008785C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C810EABE1D3F0A0C008785C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C810EAC01D3F0A0C008785C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C810EAC11D3F0A0C008785C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C810EAC31D3F0A0C008785C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C810EAC61D3F0A0D008785C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C810EAC81D3F0A0D008785C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C810EACD1D3F0A0D008785C9 /* PengStubOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PengStubOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C810EAD11D3F0A0D008785C9 /* PengStubOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PengStubOSXTests.m; sourceTree = "<group>"; };
+		C810EAD31D3F0A0D008785C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C810EAD81D3F0A0D008785C9 /* PengStubOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PengStubOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C810EADC1D3F0A0D008785C9 /* PengStubOSXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PengStubOSXUITests.m; sourceTree = "<group>"; };
+		C810EADE1D3F0A0E008785C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C810EAB41D3F0A0C008785C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EACA1D3F0A0D008785C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EAD51D3F0A0D008785C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C810EAAE1D3F0A0C008785C9 = {
+			isa = PBXGroup;
+			children = (
+				C810EAB91D3F0A0C008785C9 /* PengStubOSX */,
+				C810EAD01D3F0A0D008785C9 /* PengStubOSXTests */,
+				C810EADB1D3F0A0D008785C9 /* PengStubOSXUITests */,
+				C810EAB81D3F0A0C008785C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C810EAB81D3F0A0C008785C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C810EAB71D3F0A0C008785C9 /* PengStubOSX.app */,
+				C810EACD1D3F0A0D008785C9 /* PengStubOSXTests.xctest */,
+				C810EAD81D3F0A0D008785C9 /* PengStubOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C810EAB91D3F0A0C008785C9 /* PengStubOSX */ = {
+			isa = PBXGroup;
+			children = (
+				C810EABA1D3F0A0C008785C9 /* AppDelegate.h */,
+				C810EABB1D3F0A0C008785C9 /* AppDelegate.m */,
+				C810EAC01D3F0A0C008785C9 /* ViewController.h */,
+				C810EAC11D3F0A0C008785C9 /* ViewController.m */,
+				C810EAC31D3F0A0C008785C9 /* Assets.xcassets */,
+				C810EAC51D3F0A0D008785C9 /* Main.storyboard */,
+				C810EAC81D3F0A0D008785C9 /* Info.plist */,
+				C810EABD1D3F0A0C008785C9 /* Supporting Files */,
+			);
+			path = PengStubOSX;
+			sourceTree = "<group>";
+		};
+		C810EABD1D3F0A0C008785C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C810EABE1D3F0A0C008785C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C810EAD01D3F0A0D008785C9 /* PengStubOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				C810EAD11D3F0A0D008785C9 /* PengStubOSXTests.m */,
+				C810EAD31D3F0A0D008785C9 /* Info.plist */,
+			);
+			path = PengStubOSXTests;
+			sourceTree = "<group>";
+		};
+		C810EADB1D3F0A0D008785C9 /* PengStubOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C810EADC1D3F0A0D008785C9 /* PengStubOSXUITests.m */,
+				C810EADE1D3F0A0E008785C9 /* Info.plist */,
+			);
+			path = PengStubOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C810EAB61D3F0A0C008785C9 /* PengStubOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C810EAE11D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSX" */;
+			buildPhases = (
+				C810EAB31D3F0A0C008785C9 /* Sources */,
+				C810EAB41D3F0A0C008785C9 /* Frameworks */,
+				C810EAB51D3F0A0C008785C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PengStubOSX;
+			productName = PengStubOSX;
+			productReference = C810EAB71D3F0A0C008785C9 /* PengStubOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C810EACC1D3F0A0D008785C9 /* PengStubOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C810EAE41D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXTests" */;
+			buildPhases = (
+				C810EAC91D3F0A0D008785C9 /* Sources */,
+				C810EACA1D3F0A0D008785C9 /* Frameworks */,
+				C810EACB1D3F0A0D008785C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C810EACF1D3F0A0D008785C9 /* PBXTargetDependency */,
+			);
+			name = PengStubOSXTests;
+			productName = PengStubOSXTests;
+			productReference = C810EACD1D3F0A0D008785C9 /* PengStubOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C810EAD71D3F0A0D008785C9 /* PengStubOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C810EAE71D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXUITests" */;
+			buildPhases = (
+				C810EAD41D3F0A0D008785C9 /* Sources */,
+				C810EAD51D3F0A0D008785C9 /* Frameworks */,
+				C810EAD61D3F0A0D008785C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C810EADA1D3F0A0D008785C9 /* PBXTargetDependency */,
+			);
+			name = PengStubOSXUITests;
+			productName = PengStubOSXUITests;
+			productReference = C810EAD81D3F0A0D008785C9 /* PengStubOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C810EAAF1D3F0A0C008785C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hengfu;
+				TargetAttributes = {
+					C810EAB61D3F0A0C008785C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C810EACC1D3F0A0D008785C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C810EAB61D3F0A0C008785C9;
+					};
+					C810EAD71D3F0A0D008785C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C810EAB61D3F0A0C008785C9;
+					};
+				};
+			};
+			buildConfigurationList = C810EAB21D3F0A0C008785C9 /* Build configuration list for PBXProject "PengStubOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C810EAAE1D3F0A0C008785C9;
+			productRefGroup = C810EAB81D3F0A0C008785C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C810EAB61D3F0A0C008785C9 /* PengStubOSX */,
+				C810EACC1D3F0A0D008785C9 /* PengStubOSXTests */,
+				C810EAD71D3F0A0D008785C9 /* PengStubOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C810EAB51D3F0A0C008785C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C810EAC41D3F0A0C008785C9 /* Assets.xcassets in Resources */,
+				C810EAC71D3F0A0D008785C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EACB1D3F0A0D008785C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EAD61D3F0A0D008785C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C810EAB31D3F0A0C008785C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C810EAC21D3F0A0C008785C9 /* ViewController.m in Sources */,
+				C810EABF1D3F0A0C008785C9 /* main.m in Sources */,
+				C810EABC1D3F0A0C008785C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EAC91D3F0A0D008785C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C810EAD21D3F0A0D008785C9 /* PengStubOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C810EAD41D3F0A0D008785C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C810EADD1D3F0A0D008785C9 /* PengStubOSXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C810EACF1D3F0A0D008785C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C810EAB61D3F0A0C008785C9 /* PengStubOSX */;
+			targetProxy = C810EACE1D3F0A0D008785C9 /* PBXContainerItemProxy */;
+		};
+		C810EADA1D3F0A0D008785C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C810EAB61D3F0A0C008785C9 /* PengStubOSX */;
+			targetProxy = C810EAD91D3F0A0D008785C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C810EAC51D3F0A0D008785C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C810EAC61D3F0A0D008785C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C810EADF1D3F0A0E008785C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C810EAE01D3F0A0E008785C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C810EAE21D3F0A0E008785C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C810EAE31D3F0A0E008785C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C810EAE51D3F0A0E008785C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PengStubOSX.app/Contents/MacOS/PengStubOSX";
+			};
+			name = Debug;
+		};
+		C810EAE61D3F0A0E008785C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PengStubOSX.app/Contents/MacOS/PengStubOSX";
+			};
+			name = Release;
+		};
+		C810EAE81D3F0A0E008785C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PengStubOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C810EAE91D3F0A0E008785C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PengStubOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PengStubOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PengStubOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C810EAB21D3F0A0C008785C9 /* Build configuration list for PBXProject "PengStubOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C810EADF1D3F0A0E008785C9 /* Debug */,
+				C810EAE01D3F0A0E008785C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C810EAE11D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C810EAE21D3F0A0E008785C9 /* Debug */,
+				C810EAE31D3F0A0E008785C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C810EAE41D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C810EAE51D3F0A0E008785C9 /* Debug */,
+				C810EAE61D3F0A0E008785C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C810EAE71D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C810EAE81D3F0A0E008785C9 /* Debug */,
+				C810EAE91D3F0A0E008785C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C810EAAF1D3F0A0C008785C9 /* Project object */;
+}
