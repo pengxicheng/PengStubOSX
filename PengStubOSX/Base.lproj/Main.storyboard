@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6198" systemVersion="14A297b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6198"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -641,12 +642,12 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider=""/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Window Controller - Window-->
+        <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
@@ -667,15 +668,51 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TQw-Gu-Jtz">
+                                <rect key="frame" x="140" y="-65" width="200" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Dnd-Kz-Lsd"/>
+                                    <constraint firstAttribute="height" constant="400" id="fNs-Bq-lGW"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSAdvanced" id="1c8-h3-Bc1"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WsT-8X-wAy">
+                                <rect key="frame" x="394" y="113" width="92" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="4WW-sC-o6e"/>
+                                    <constraint firstAttribute="height" constant="30" id="MLX-Ah-5EW"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="复位图片" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DDa-WO-liH">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="resetImage:" target="XfG-lQ-9wD" id="Swz-PS-j2P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="WsT-8X-wAy" firstAttribute="leading" secondItem="TQw-Gu-Jtz" secondAttribute="trailing" constant="60" id="9zL-ux-bYg"/>
+                            <constraint firstItem="WsT-8X-wAy" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="J8M-ZQ-jGd"/>
+                            <constraint firstItem="TQw-Gu-Jtz" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="KQA-G2-y4f"/>
+                            <constraint firstItem="TQw-Gu-Jtz" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="sbS-q5-gqF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pImageView" destination="TQw-Gu-Jtz" id="iSo-f9-ffl"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
+    </resources>
 </document>

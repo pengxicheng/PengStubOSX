@@ -14,6 +14,7 @@
 		C810EAC71D3F0A0D008785C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C810EAC51D3F0A0D008785C9 /* Main.storyboard */; };
 		C810EAD21D3F0A0D008785C9 /* PengStubOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EAD11D3F0A0D008785C9 /* PengStubOSXTests.m */; };
 		C810EADD1D3F0A0D008785C9 /* PengStubOSXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C810EADC1D3F0A0D008785C9 /* PengStubOSXUITests.m */; };
+		C89C3F6F1D41BA0C007FF149 /* LOGO_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C89C3F6E1D41BA0C007FF149 /* LOGO_login@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C810EAD81D3F0A0D008785C9 /* PengStubOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PengStubOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C810EADC1D3F0A0D008785C9 /* PengStubOSXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PengStubOSXUITests.m; sourceTree = "<group>"; };
 		C810EADE1D3F0A0E008785C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89C3F6E1D41BA0C007FF149 /* LOGO_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO_login@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C810EABB1D3F0A0C008785C9 /* AppDelegate.m */,
 				C810EAC01D3F0A0C008785C9 /* ViewController.h */,
 				C810EAC11D3F0A0C008785C9 /* ViewController.m */,
+				C89C3F6E1D41BA0C007FF149 /* LOGO_login@2x.png */,
 				C810EAC31D3F0A0C008785C9 /* Assets.xcassets */,
 				C810EAC51D3F0A0D008785C9 /* Main.storyboard */,
 				C810EAC81D3F0A0D008785C9 /* Info.plist */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89C3F6F1D41BA0C007FF149 /* LOGO_login@2x.png in Resources */,
 				C810EAC41D3F0A0C008785C9 /* Assets.xcassets in Resources */,
 				C810EAC71D3F0A0D008785C9 /* Main.storyboard in Resources */,
 			);
@@ -489,6 +493,7 @@
 				C810EAE31D3F0A0E008785C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C810EAE41D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				C810EAE61D3F0A0E008785C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C810EAE71D3F0A0E008785C9 /* Build configuration list for PBXNativeTarget "PengStubOSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				C810EAE91D3F0A0E008785C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
