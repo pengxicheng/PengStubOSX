@@ -172,35 +172,11 @@
 - (void) peripheralManager:(CBPeripheralManager *)peripheral didReceiveReadRequest:(CBATTRequest *)request
 {
     if (request.characteristic.properties & CBCharacteristicPropertyRead) {
-        NSData *data = request.characteristic.value;
-//        Byte spaceBytes1[] = {0x1B, 0x24, 150 % 256, 0};
-//        NSData *data = [NSData dataWithBytes:spaceBytes1 length:sizeof(spaceBytes1)];
-//        [request setValue:data];
-        NSLog(@"data:%@",data);
-
-        if (data && data.length < 20 ) {
-            NSLog(@"data.length < 20");
-//            NSDateFormatter *formt = [NSDateFormatter new];
-//            formt.dateFormat = @"ss";
-//            data = [[formt stringFromDate:[NSDate new]] dataUsingEncoding:NSUTF8StringEncoding];
-//            NSLog(@"[formt stringFromDate:[NSDate new]]:%@",[formt stringFromDate:[NSDate new]]);
-            
-//            Byte *testByte = (Byte *)[data bytes];
-//            
-//            int b = 10 - testByte[0];
-//            Byte spaceBytes[] = {b};
-//            data = [NSData dataWithBytes:spaceBytes length:sizeof(spaceBytes)];
-            [request setValue:data];
-        }else{
-            NSLog(@"data.length > 20 or data.length = 0");
-            if (data) {
-//                data = [@"谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!" dataUsingEncoding:NSUTF8StringEncoding];
-                [request setValue:data];
-            }
-        
+        if (request.offset > self.customCharacteristic.value.length) {
+            [peripheral respondToRequest:request withResult:CBATTErrorInvalidOffset];
+            return;
         }
-
-        //对请求作出成功响应
+        request.value = [self.customCharacteristic.value subdataWithRange:NSMakeRange(request.offset, self.customCharacteristic.value.length - request.offset)];
         [peripheral respondToRequest:request withResult:CBATTErrorSuccess];
     }else{
         //错误的响应
@@ -223,8 +199,6 @@
         if (c.value) {
             [self reseiveImageData:c.value];
         }
-//        NSData *data = [@"谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!谢谢惠顾，欢迎下次光临!" dataUsingEncoding:NSUTF8StringEncoding];
-//        [request setValue:data];
         [peripheral respondToRequest:request withResult:CBATTErrorSuccess];
     }else{
         [peripheral respondToRequest:request withResult:CBATTErrorWriteNotPermitted];
